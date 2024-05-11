@@ -101,8 +101,11 @@ const LoginPage = () => {
 					<Link to='/signup'>
 						<button className='btn rounded-full btn-primary text-white btn-outline w-full'>Sign up</button>
 					</Link>
+					<div className="text-yellow-100 text-xs">(Ex: Username: johndoe & password : johndoe)</div>
 				</div>
+				
 			</div>
+			
 		</div>
 	);
 };
